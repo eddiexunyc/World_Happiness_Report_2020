@@ -1,0 +1,2055 @@
+[{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e4c"
+  },
+  "rank": 1,
+  "country": "Switzerland",
+  "score": 7.59,
+  "gdp": 1.4,
+  "social_support": 1.35,
+  "life_expectancy": 0.94,
+  "freedom": 0.67,
+  "generosity": 0.3,
+  "corruption": 0.42
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e4d"
+  },
+  "rank": 2,
+  "country": "Iceland",
+  "score": 7.56,
+  "gdp": 1.3,
+  "social_support": 1.4,
+  "life_expectancy": 0.95,
+  "freedom": 0.63,
+  "generosity": 0.44,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e4e"
+  },
+  "rank": 3,
+  "country": "Denmark",
+  "score": 7.53,
+  "gdp": 1.33,
+  "social_support": 1.36,
+  "life_expectancy": 0.87,
+  "freedom": 0.65,
+  "generosity": 0.34,
+  "corruption": 0.48
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e4f"
+  },
+  "rank": 4,
+  "country": "Norway",
+  "score": 7.52,
+  "gdp": 1.46,
+  "social_support": 1.33,
+  "life_expectancy": 0.89,
+  "freedom": 0.67,
+  "generosity": 0.35,
+  "corruption": 0.37
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e50"
+  },
+  "rank": 5,
+  "country": "Canada",
+  "score": 7.43,
+  "gdp": 1.33,
+  "social_support": 1.32,
+  "life_expectancy": 0.91,
+  "freedom": 0.63,
+  "generosity": 0.46,
+  "corruption": 0.33
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e51"
+  },
+  "rank": 6,
+  "country": "Finland",
+  "score": 7.41,
+  "gdp": 1.29,
+  "social_support": 1.32,
+  "life_expectancy": 0.89,
+  "freedom": 0.64,
+  "generosity": 0.23,
+  "corruption": 0.41
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e52"
+  },
+  "rank": 7,
+  "country": "Netherlands",
+  "score": 7.38,
+  "gdp": 1.33,
+  "social_support": 1.28,
+  "life_expectancy": 0.89,
+  "freedom": 0.62,
+  "generosity": 0.48,
+  "corruption": 0.32
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e53"
+  },
+  "rank": 8,
+  "country": "Sweden",
+  "score": 7.36,
+  "gdp": 1.33,
+  "social_support": 1.29,
+  "life_expectancy": 0.91,
+  "freedom": 0.66,
+  "generosity": 0.36,
+  "corruption": 0.44
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e54"
+  },
+  "rank": 9,
+  "country": "New Zealand",
+  "score": 7.29,
+  "gdp": 1.25,
+  "social_support": 1.32,
+  "life_expectancy": 0.91,
+  "freedom": 0.64,
+  "generosity": 0.48,
+  "corruption": 0.43
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e55"
+  },
+  "rank": 10,
+  "country": "Australia",
+  "score": 7.28,
+  "gdp": 1.33,
+  "social_support": 1.31,
+  "life_expectancy": 0.93,
+  "freedom": 0.65,
+  "generosity": 0.44,
+  "corruption": 0.36
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e56"
+  },
+  "rank": 11,
+  "country": "Israel",
+  "score": 7.28,
+  "gdp": 1.23,
+  "social_support": 1.22,
+  "life_expectancy": 0.91,
+  "freedom": 0.41,
+  "generosity": 0.33,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e57"
+  },
+  "rank": 12,
+  "country": "Costa Rica",
+  "score": 7.23,
+  "gdp": 0.96,
+  "social_support": 1.24,
+  "life_expectancy": 0.86,
+  "freedom": 0.63,
+  "generosity": 0.25,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e58"
+  },
+  "rank": 13,
+  "country": "Austria",
+  "score": 7.2,
+  "gdp": 1.34,
+  "social_support": 1.3,
+  "life_expectancy": 0.89,
+  "freedom": 0.62,
+  "generosity": 0.33,
+  "corruption": 0.19
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e59"
+  },
+  "rank": 14,
+  "country": "Mexico",
+  "score": 7.19,
+  "gdp": 1.02,
+  "social_support": 0.91,
+  "life_expectancy": 0.81,
+  "freedom": 0.48,
+  "generosity": 0.14,
+  "corruption": 0.21
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5a"
+  },
+  "rank": 15,
+  "country": "United States",
+  "score": 7.12,
+  "gdp": 1.39,
+  "social_support": 1.25,
+  "life_expectancy": 0.86,
+  "freedom": 0.55,
+  "generosity": 0.4,
+  "corruption": 0.16
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5b"
+  },
+  "rank": 16,
+  "country": "Brazil",
+  "score": 6.98,
+  "gdp": 0.98,
+  "social_support": 1.23,
+  "life_expectancy": 0.7,
+  "freedom": 0.49,
+  "generosity": 0.15,
+  "corruption": 0.18
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5c"
+  },
+  "rank": 17,
+  "country": "Luxembourg",
+  "score": 6.95,
+  "gdp": 1.56,
+  "social_support": 1.22,
+  "life_expectancy": 0.92,
+  "freedom": 0.62,
+  "generosity": 0.28,
+  "corruption": 0.38
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5d"
+  },
+  "rank": 18,
+  "country": "Ireland",
+  "score": 6.94,
+  "gdp": 1.34,
+  "social_support": 1.37,
+  "life_expectancy": 0.9,
+  "freedom": 0.62,
+  "generosity": 0.46,
+  "corruption": 0.29
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5e"
+  },
+  "rank": 19,
+  "country": "Belgium",
+  "score": 6.94,
+  "gdp": 1.31,
+  "social_support": 1.29,
+  "life_expectancy": 0.9,
+  "freedom": 0.58,
+  "generosity": 0.22,
+  "corruption": 0.23
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e5f"
+  },
+  "rank": 20,
+  "country": "United Arab Emirates",
+  "score": 6.9,
+  "gdp": 1.43,
+  "social_support": 1.13,
+  "life_expectancy": 0.81,
+  "freedom": 0.64,
+  "generosity": 0.26,
+  "corruption": 0.39
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e60"
+  },
+  "rank": 21,
+  "country": "United Kingdom",
+  "score": 6.87,
+  "gdp": 1.27,
+  "social_support": 1.29,
+  "life_expectancy": 0.91,
+  "freedom": 0.6,
+  "generosity": 0.52,
+  "corruption": 0.32
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e61"
+  },
+  "rank": 22,
+  "country": "Oman",
+  "score": 6.85,
+  "gdp": 1.36,
+  "social_support": 1.08,
+  "life_expectancy": 0.76,
+  "freedom": 0.63,
+  "generosity": 0.22,
+  "corruption": 0.33
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e62"
+  },
+  "rank": 23,
+  "country": "Venezuela",
+  "score": 6.81,
+  "gdp": 1.04,
+  "social_support": 1.26,
+  "life_expectancy": 0.72,
+  "freedom": 0.43,
+  "generosity": 0.06,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e63"
+  },
+  "rank": 24,
+  "country": "Singapore",
+  "score": 6.8,
+  "gdp": 1.52,
+  "social_support": 1.02,
+  "life_expectancy": 1.03,
+  "freedom": 0.54,
+  "generosity": 0.31,
+  "corruption": 0.49
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e64"
+  },
+  "rank": 25,
+  "country": "Panama",
+  "score": 6.79,
+  "gdp": 1.06,
+  "social_support": 1.2,
+  "life_expectancy": 0.8,
+  "freedom": 0.54,
+  "generosity": 0.24,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e65"
+  },
+  "rank": 26,
+  "country": "Germany",
+  "score": 6.75,
+  "gdp": 1.33,
+  "social_support": 1.3,
+  "life_expectancy": 0.89,
+  "freedom": 0.61,
+  "generosity": 0.28,
+  "corruption": 0.22
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e66"
+  },
+  "rank": 27,
+  "country": "Chile",
+  "score": 6.67,
+  "gdp": 1.11,
+  "social_support": 1.12,
+  "life_expectancy": 0.86,
+  "freedom": 0.44,
+  "generosity": 0.33,
+  "corruption": 0.13
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e67"
+  },
+  "rank": 28,
+  "country": "Qatar",
+  "score": 6.61,
+  "gdp": 1.69,
+  "social_support": 1.08,
+  "life_expectancy": 0.8,
+  "freedom": 0.64,
+  "generosity": 0.33,
+  "corruption": 0.52
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e68"
+  },
+  "rank": 29,
+  "country": "France",
+  "score": 6.58,
+  "gdp": 1.28,
+  "social_support": 1.26,
+  "life_expectancy": 0.95,
+  "freedom": 0.55,
+  "generosity": 0.12,
+  "corruption": 0.21
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e69"
+  },
+  "rank": 30,
+  "country": "Argentina",
+  "score": 6.57,
+  "gdp": 1.05,
+  "social_support": 1.25,
+  "life_expectancy": 0.79,
+  "freedom": 0.45,
+  "generosity": 0.11,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6a"
+  },
+  "rank": 31,
+  "country": "Czech Republic",
+  "score": 6.5,
+  "gdp": 1.18,
+  "social_support": 1.21,
+  "life_expectancy": 0.84,
+  "freedom": 0.46,
+  "generosity": 0.11,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6b"
+  },
+  "rank": 32,
+  "country": "Uruguay",
+  "score": 6.48,
+  "gdp": 1.06,
+  "social_support": 1.21,
+  "life_expectancy": 0.81,
+  "freedom": 0.6,
+  "generosity": 0.23,
+  "corruption": 0.25
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6c"
+  },
+  "rank": 33,
+  "country": "Colombia",
+  "score": 6.48,
+  "gdp": 0.92,
+  "social_support": 1.24,
+  "life_expectancy": 0.69,
+  "freedom": 0.53,
+  "generosity": 0.18,
+  "corruption": 0.05
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6d"
+  },
+  "rank": 34,
+  "country": "Thailand",
+  "score": 6.46,
+  "gdp": 0.97,
+  "social_support": 1.27,
+  "life_expectancy": 0.74,
+  "freedom": 0.56,
+  "generosity": 0.58,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6e"
+  },
+  "rank": 35,
+  "country": "Saudi Arabia",
+  "score": 6.41,
+  "gdp": 1.4,
+  "social_support": 1.08,
+  "life_expectancy": 0.72,
+  "freedom": 0.31,
+  "generosity": 0.14,
+  "corruption": 0.33
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e6f"
+  },
+  "rank": 36,
+  "country": "Spain",
+  "score": 6.33,
+  "gdp": 1.23,
+  "social_support": 1.31,
+  "life_expectancy": 0.96,
+  "freedom": 0.46,
+  "generosity": 0.18,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e70"
+  },
+  "rank": 37,
+  "country": "Malta",
+  "score": 6.3,
+  "gdp": 1.21,
+  "social_support": 1.3,
+  "life_expectancy": 0.89,
+  "freedom": 0.6,
+  "generosity": 0.52,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e71"
+  },
+  "rank": 38,
+  "country": "Taiwan",
+  "score": 6.3,
+  "gdp": 1.29,
+  "social_support": 1.08,
+  "life_expectancy": 0.88,
+  "freedom": 0.4,
+  "generosity": 0.25,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e72"
+  },
+  "rank": 39,
+  "country": "Kuwait",
+  "score": 6.3,
+  "gdp": 1.55,
+  "social_support": 1.17,
+  "life_expectancy": 0.72,
+  "freedom": 0.55,
+  "generosity": 0.16,
+  "corruption": 0.26
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e73"
+  },
+  "rank": 40,
+  "country": "Suriname",
+  "score": 6.27,
+  "gdp": 1,
+  "social_support": 0.97,
+  "life_expectancy": 0.61,
+  "freedom": 0.6,
+  "generosity": 0.17,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e74"
+  },
+  "rank": 41,
+  "country": "Trinidad and Tobago",
+  "score": 6.17,
+  "gdp": 1.21,
+  "social_support": 1.18,
+  "life_expectancy": 0.61,
+  "freedom": 0.56,
+  "generosity": 0.32,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e75"
+  },
+  "rank": 42,
+  "country": "El Salvador",
+  "score": 6.13,
+  "gdp": 0.76,
+  "social_support": 1.03,
+  "life_expectancy": 0.68,
+  "freedom": 0.4,
+  "generosity": 0.11,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e76"
+  },
+  "rank": 43,
+  "country": "Guatemala",
+  "score": 6.12,
+  "gdp": 0.75,
+  "social_support": 1.04,
+  "life_expectancy": 0.64,
+  "freedom": 0.58,
+  "generosity": 0.27,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e77"
+  },
+  "rank": 44,
+  "country": "Uzbekistan",
+  "score": 6,
+  "gdp": 0.63,
+  "social_support": 1.34,
+  "life_expectancy": 0.6,
+  "freedom": 0.66,
+  "generosity": 0.23,
+  "corruption": 0.31
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e78"
+  },
+  "rank": 45,
+  "country": "Slovakia",
+  "score": 6,
+  "gdp": 1.17,
+  "social_support": 1.27,
+  "life_expectancy": 0.79,
+  "freedom": 0.32,
+  "generosity": 0.17,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e79"
+  },
+  "rank": 46,
+  "country": "Japan",
+  "score": 5.99,
+  "gdp": 1.27,
+  "social_support": 1.26,
+  "life_expectancy": 0.99,
+  "freedom": 0.5,
+  "generosity": 0.11,
+  "corruption": 0.18
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7a"
+  },
+  "rank": 47,
+  "country": "South Korea",
+  "score": 5.98,
+  "gdp": 1.24,
+  "social_support": 0.96,
+  "life_expectancy": 0.97,
+  "freedom": 0.33,
+  "generosity": 0.19,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7b"
+  },
+  "rank": 48,
+  "country": "Ecuador",
+  "score": 5.98,
+  "gdp": 0.86,
+  "social_support": 1,
+  "life_expectancy": 0.79,
+  "freedom": 0.49,
+  "generosity": 0.12,
+  "corruption": 0.18
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7c"
+  },
+  "rank": 49,
+  "country": "Bahrain",
+  "score": 5.96,
+  "gdp": 1.32,
+  "social_support": 1.22,
+  "life_expectancy": 0.75,
+  "freedom": 0.45,
+  "generosity": 0.17,
+  "corruption": 0.31
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7d"
+  },
+  "rank": 50,
+  "country": "Italy",
+  "score": 5.95,
+  "gdp": 1.25,
+  "social_support": 1.2,
+  "life_expectancy": 0.95,
+  "freedom": 0.26,
+  "generosity": 0.23,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7e"
+  },
+  "rank": 51,
+  "country": "Bolivia",
+  "score": 5.89,
+  "gdp": 0.68,
+  "social_support": 0.98,
+  "life_expectancy": 0.54,
+  "freedom": 0.57,
+  "generosity": 0.21,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e7f"
+  },
+  "rank": 52,
+  "country": "Moldova",
+  "score": 5.89,
+  "gdp": 0.59,
+  "social_support": 1.02,
+  "life_expectancy": 0.62,
+  "freedom": 0.33,
+  "generosity": 0.21,
+  "corruption": 0.02
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e80"
+  },
+  "rank": 53,
+  "country": "Paraguay",
+  "score": 5.88,
+  "gdp": 0.76,
+  "social_support": 1.3,
+  "life_expectancy": 0.66,
+  "freedom": 0.54,
+  "generosity": 0.34,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e81"
+  },
+  "rank": 54,
+  "country": "Kazakhstan",
+  "score": 5.86,
+  "gdp": 1.12,
+  "social_support": 1.12,
+  "life_expectancy": 0.64,
+  "freedom": 0.52,
+  "generosity": 0.12,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e82"
+  },
+  "rank": 55,
+  "country": "Slovenia",
+  "score": 5.85,
+  "gdp": 1.18,
+  "social_support": 1.27,
+  "life_expectancy": 0.87,
+  "freedom": 0.61,
+  "generosity": 0.25,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e83"
+  },
+  "rank": 56,
+  "country": "Lithuania",
+  "score": 5.83,
+  "gdp": 1.15,
+  "social_support": 1.26,
+  "life_expectancy": 0.73,
+  "freedom": 0.21,
+  "generosity": 0.03,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e84"
+  },
+  "rank": 57,
+  "country": "Nicaragua",
+  "score": 5.83,
+  "gdp": 0.59,
+  "social_support": 1.14,
+  "life_expectancy": 0.74,
+  "freedom": 0.55,
+  "generosity": 0.28,
+  "corruption": 0.19
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e85"
+  },
+  "rank": 58,
+  "country": "Peru",
+  "score": 5.82,
+  "gdp": 0.9,
+  "social_support": 0.97,
+  "life_expectancy": 0.73,
+  "freedom": 0.41,
+  "generosity": 0.15,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e86"
+  },
+  "rank": 59,
+  "country": "Belarus",
+  "score": 5.81,
+  "gdp": 1.03,
+  "social_support": 1.23,
+  "life_expectancy": 0.74,
+  "freedom": 0.38,
+  "generosity": 0.11,
+  "corruption": 0.19
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e87"
+  },
+  "rank": 60,
+  "country": "Poland",
+  "score": 5.79,
+  "gdp": 1.13,
+  "social_support": 1.28,
+  "life_expectancy": 0.78,
+  "freedom": 0.53,
+  "generosity": 0.17,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e88"
+  },
+  "rank": 61,
+  "country": "Malaysia",
+  "score": 5.77,
+  "gdp": 1.12,
+  "social_support": 1.07,
+  "life_expectancy": 0.72,
+  "freedom": 0.53,
+  "generosity": 0.33,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e89"
+  },
+  "rank": 62,
+  "country": "Croatia",
+  "score": 5.76,
+  "gdp": 1.08,
+  "social_support": 0.8,
+  "life_expectancy": 0.79,
+  "freedom": 0.26,
+  "generosity": 0.05,
+  "corruption": 0.02
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8a"
+  },
+  "rank": 63,
+  "country": "Libya",
+  "score": 5.75,
+  "gdp": 1.13,
+  "social_support": 1.12,
+  "life_expectancy": 0.7,
+  "freedom": 0.42,
+  "generosity": 0.18,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8b"
+  },
+  "rank": 64,
+  "country": "Russia",
+  "score": 5.72,
+  "gdp": 1.14,
+  "social_support": 1.24,
+  "life_expectancy": 0.67,
+  "freedom": 0.37,
+  "generosity": 0,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8c"
+  },
+  "rank": 65,
+  "country": "Jamaica",
+  "score": 5.71,
+  "gdp": 0.81,
+  "social_support": 1.15,
+  "life_expectancy": 0.69,
+  "freedom": 0.5,
+  "generosity": 0.21,
+  "corruption": 0.02
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8d"
+  },
+  "rank": 66,
+  "country": "North Cyprus",
+  "score": 5.7,
+  "gdp": 1.21,
+  "social_support": 1.07,
+  "life_expectancy": 0.92,
+  "freedom": 0.49,
+  "generosity": 0.26,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8e"
+  },
+  "rank": 67,
+  "country": "Cyprus",
+  "score": 5.69,
+  "gdp": 1.21,
+  "social_support": 0.89,
+  "life_expectancy": 0.92,
+  "freedom": 0.41,
+  "generosity": 0.31,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e8f"
+  },
+  "rank": 68,
+  "country": "Algeria",
+  "score": 5.6,
+  "gdp": 0.94,
+  "social_support": 1.08,
+  "life_expectancy": 0.62,
+  "freedom": 0.29,
+  "generosity": 0.08,
+  "corruption": 0.17
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e90"
+  },
+  "rank": 69,
+  "country": "Kosovo",
+  "score": 5.59,
+  "gdp": 0.8,
+  "social_support": 0.81,
+  "life_expectancy": 0.63,
+  "freedom": 0.25,
+  "generosity": 0.28,
+  "corruption": 0.05
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e91"
+  },
+  "rank": 70,
+  "country": "Turkmenistan",
+  "score": 5.55,
+  "gdp": 0.96,
+  "social_support": 1.23,
+  "life_expectancy": 0.54,
+  "freedom": 0.48,
+  "generosity": 0.17,
+  "corruption": 0.31
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e92"
+  },
+  "rank": 71,
+  "country": "Mauritius",
+  "score": 5.48,
+  "gdp": 1.01,
+  "social_support": 0.99,
+  "life_expectancy": 0.71,
+  "freedom": 0.56,
+  "generosity": 0.38,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e93"
+  },
+  "rank": 72,
+  "country": "Hong Kong",
+  "score": 5.47,
+  "gdp": 1.39,
+  "social_support": 1.06,
+  "life_expectancy": 1.01,
+  "freedom": 0.6,
+  "generosity": 0.39,
+  "corruption": 0.37
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e94"
+  },
+  "rank": 73,
+  "country": "Estonia",
+  "score": 5.43,
+  "gdp": 1.15,
+  "social_support": 1.23,
+  "life_expectancy": 0.77,
+  "freedom": 0.45,
+  "generosity": 0.09,
+  "corruption": 0.15
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e95"
+  },
+  "rank": 74,
+  "country": "Indonesia",
+  "score": 5.4,
+  "gdp": 0.83,
+  "social_support": 1.09,
+  "life_expectancy": 0.64,
+  "freedom": 0.47,
+  "generosity": 0.52,
+  "corruption": 0
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e96"
+  },
+  "rank": 75,
+  "country": "Vietnam",
+  "score": 5.36,
+  "gdp": 0.63,
+  "social_support": 0.91,
+  "life_expectancy": 0.75,
+  "freedom": 0.59,
+  "generosity": 0.17,
+  "corruption": 0.1
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e97"
+  },
+  "rank": 76,
+  "country": "Turkey",
+  "score": 5.33,
+  "gdp": 1.06,
+  "social_support": 0.95,
+  "life_expectancy": 0.73,
+  "freedom": 0.23,
+  "generosity": 0.12,
+  "corruption": 0.16
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e98"
+  },
+  "rank": 77,
+  "country": "Kyrgyzstan",
+  "score": 5.29,
+  "gdp": 0.47,
+  "social_support": 1.15,
+  "life_expectancy": 0.65,
+  "freedom": 0.43,
+  "generosity": 0.3,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e99"
+  },
+  "rank": 78,
+  "country": "Nigeria",
+  "score": 5.27,
+  "gdp": 0.65,
+  "social_support": 0.9,
+  "life_expectancy": 0.16,
+  "freedom": 0.34,
+  "generosity": 0.27,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9a"
+  },
+  "rank": 79,
+  "country": "Bhutan",
+  "score": 5.25,
+  "gdp": 0.77,
+  "social_support": 1.1,
+  "life_expectancy": 0.57,
+  "freedom": 0.53,
+  "generosity": 0.48,
+  "corruption": 0.15
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9b"
+  },
+  "rank": 80,
+  "country": "Azerbaijan",
+  "score": 5.21,
+  "gdp": 1.02,
+  "social_support": 0.94,
+  "life_expectancy": 0.64,
+  "freedom": 0.37,
+  "generosity": 0.08,
+  "corruption": 0.16
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9c"
+  },
+  "rank": 81,
+  "country": "Pakistan",
+  "score": 5.19,
+  "gdp": 0.6,
+  "social_support": 0.41,
+  "life_expectancy": 0.51,
+  "freedom": 0.12,
+  "generosity": 0.34,
+  "corruption": 0.1
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9d"
+  },
+  "rank": 82,
+  "country": "Jordan",
+  "score": 5.19,
+  "gdp": 0.9,
+  "social_support": 1.05,
+  "life_expectancy": 0.7,
+  "freedom": 0.41,
+  "generosity": 0.11,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9e"
+  },
+  "rank": 82,
+  "country": "Montenegro",
+  "score": 5.19,
+  "gdp": 0.97,
+  "social_support": 0.91,
+  "life_expectancy": 0.73,
+  "freedom": 0.18,
+  "generosity": 0.16,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2e9f"
+  },
+  "rank": 84,
+  "country": "China",
+  "score": 5.14,
+  "gdp": 0.89,
+  "social_support": 0.95,
+  "life_expectancy": 0.82,
+  "freedom": 0.52,
+  "generosity": 0.08,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea0"
+  },
+  "rank": 85,
+  "country": "Zambia",
+  "score": 5.13,
+  "gdp": 0.47,
+  "social_support": 0.92,
+  "life_expectancy": 0.3,
+  "freedom": 0.49,
+  "generosity": 0.2,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea1"
+  },
+  "rank": 86,
+  "country": "Romania",
+  "score": 5.12,
+  "gdp": 1.04,
+  "social_support": 0.89,
+  "life_expectancy": 0.77,
+  "freedom": 0.35,
+  "generosity": 0.14,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea2"
+  },
+  "rank": 87,
+  "country": "Serbia",
+  "score": 5.12,
+  "gdp": 0.92,
+  "social_support": 1.01,
+  "life_expectancy": 0.75,
+  "freedom": 0.2,
+  "generosity": 0.19,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea3"
+  },
+  "rank": 88,
+  "country": "Portugal",
+  "score": 5.1,
+  "gdp": 1.16,
+  "social_support": 1.14,
+  "life_expectancy": 0.88,
+  "freedom": 0.51,
+  "generosity": 0.14,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea4"
+  },
+  "rank": 89,
+  "country": "Latvia",
+  "score": 5.1,
+  "gdp": 1.11,
+  "social_support": 1.1,
+  "life_expectancy": 0.72,
+  "freedom": 0.3,
+  "generosity": 0.18,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea5"
+  },
+  "rank": 90,
+  "country": "Philippines",
+  "score": 5.07,
+  "gdp": 0.71,
+  "social_support": 1.04,
+  "life_expectancy": 0.58,
+  "freedom": 0.63,
+  "generosity": 0.25,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea6"
+  },
+  "rank": 91,
+  "country": "Somaliland region",
+  "score": 5.06,
+  "gdp": 0.19,
+  "social_support": 0.95,
+  "life_expectancy": 0.44,
+  "freedom": 0.47,
+  "generosity": 0.5,
+  "corruption": 0.4
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea7"
+  },
+  "rank": 92,
+  "country": "Morocco",
+  "score": 5.01,
+  "gdp": 0.73,
+  "social_support": 0.64,
+  "life_expectancy": 0.61,
+  "freedom": 0.42,
+  "generosity": 0.07,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea8"
+  },
+  "rank": 93,
+  "country": "Macedonia",
+  "score": 5.01,
+  "gdp": 0.92,
+  "social_support": 1,
+  "life_expectancy": 0.74,
+  "freedom": 0.33,
+  "generosity": 0.22,
+  "corruption": 0.05
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ea9"
+  },
+  "rank": 94,
+  "country": "Mozambique",
+  "score": 4.97,
+  "gdp": 0.08,
+  "social_support": 1.03,
+  "life_expectancy": 0.09,
+  "freedom": 0.34,
+  "generosity": 0.22,
+  "corruption": 0.16
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eaa"
+  },
+  "rank": 95,
+  "country": "Albania",
+  "score": 4.96,
+  "gdp": 0.88,
+  "social_support": 0.8,
+  "life_expectancy": 0.81,
+  "freedom": 0.36,
+  "generosity": 0.14,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eab"
+  },
+  "rank": 96,
+  "country": "Bosnia and Herzegovina",
+  "score": 4.95,
+  "gdp": 0.83,
+  "social_support": 0.92,
+  "life_expectancy": 0.79,
+  "freedom": 0.09,
+  "generosity": 0.25,
+  "corruption": 0
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eac"
+  },
+  "rank": 97,
+  "country": "Lesotho",
+  "score": 4.9,
+  "gdp": 0.38,
+  "social_support": 1.04,
+  "life_expectancy": 0.08,
+  "freedom": 0.32,
+  "generosity": 0.16,
+  "corruption": 0.13
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ead"
+  },
+  "rank": 98,
+  "country": "Dominican Republic",
+  "score": 4.88,
+  "gdp": 0.9,
+  "social_support": 1.17,
+  "life_expectancy": 0.67,
+  "freedom": 0.58,
+  "generosity": 0.22,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eae"
+  },
+  "rank": 99,
+  "country": "Laos",
+  "score": 4.88,
+  "gdp": 0.59,
+  "social_support": 0.74,
+  "life_expectancy": 0.55,
+  "freedom": 0.6,
+  "generosity": 0.42,
+  "corruption": 0.24
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eaf"
+  },
+  "rank": 100,
+  "country": "Mongolia",
+  "score": 4.87,
+  "gdp": 0.83,
+  "social_support": 1.3,
+  "life_expectancy": 0.6,
+  "freedom": 0.44,
+  "generosity": 0.33,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb0"
+  },
+  "rank": 101,
+  "country": "Swaziland",
+  "score": 4.87,
+  "gdp": 0.71,
+  "social_support": 1.07,
+  "life_expectancy": 0.08,
+  "freedom": 0.31,
+  "generosity": 0.18,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb1"
+  },
+  "rank": 102,
+  "country": "Greece",
+  "score": 4.86,
+  "gdp": 1.15,
+  "social_support": 0.93,
+  "life_expectancy": 0.88,
+  "freedom": 0.08,
+  "generosity": 0,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb2"
+  },
+  "rank": 103,
+  "country": "Lebanon",
+  "score": 4.84,
+  "gdp": 1.03,
+  "social_support": 0.8,
+  "life_expectancy": 0.84,
+  "freedom": 0.34,
+  "generosity": 0.22,
+  "corruption": 0.05
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb3"
+  },
+  "rank": 104,
+  "country": "Hungary",
+  "score": 4.8,
+  "gdp": 1.12,
+  "social_support": 1.2,
+  "life_expectancy": 0.76,
+  "freedom": 0.32,
+  "generosity": 0.13,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb4"
+  },
+  "rank": 105,
+  "country": "Honduras",
+  "score": 4.79,
+  "gdp": 0.6,
+  "social_support": 0.95,
+  "life_expectancy": 0.7,
+  "freedom": 0.4,
+  "generosity": 0.23,
+  "corruption": 0.07
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb5"
+  },
+  "rank": 106,
+  "country": "Tajikistan",
+  "score": 4.79,
+  "gdp": 0.39,
+  "social_support": 0.86,
+  "life_expectancy": 0.57,
+  "freedom": 0.47,
+  "generosity": 0.23,
+  "corruption": 0.15
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb6"
+  },
+  "rank": 107,
+  "country": "Tunisia",
+  "score": 4.74,
+  "gdp": 0.88,
+  "social_support": 0.6,
+  "life_expectancy": 0.74,
+  "freedom": 0.26,
+  "generosity": 0.06,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb7"
+  },
+  "rank": 108,
+  "country": "Palestinian Territories",
+  "score": 4.72,
+  "gdp": 0.6,
+  "social_support": 0.93,
+  "life_expectancy": 0.66,
+  "freedom": 0.24,
+  "generosity": 0.11,
+  "corruption": 0.13
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb8"
+  },
+  "rank": 109,
+  "country": "Bangladesh",
+  "score": 4.69,
+  "gdp": 0.4,
+  "social_support": 0.43,
+  "life_expectancy": 0.6,
+  "freedom": 0.41,
+  "generosity": 0.21,
+  "corruption": 0.13
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eb9"
+  },
+  "rank": 110,
+  "country": "Iran",
+  "score": 4.69,
+  "gdp": 1.01,
+  "social_support": 0.54,
+  "life_expectancy": 0.7,
+  "freedom": 0.3,
+  "generosity": 0.38,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eba"
+  },
+  "rank": 111,
+  "country": "Ukraine",
+  "score": 4.68,
+  "gdp": 0.8,
+  "social_support": 1.2,
+  "life_expectancy": 0.67,
+  "freedom": 0.25,
+  "generosity": 0.15,
+  "corruption": 0.03
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ebb"
+  },
+  "rank": 112,
+  "country": "Iraq",
+  "score": 4.68,
+  "gdp": 0.99,
+  "social_support": 0.82,
+  "life_expectancy": 0.6,
+  "freedom": 0,
+  "generosity": 0.18,
+  "corruption": 0.14
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ebc"
+  },
+  "rank": 113,
+  "country": "South Africa",
+  "score": 4.64,
+  "gdp": 0.92,
+  "social_support": 1.18,
+  "life_expectancy": 0.28,
+  "freedom": 0.33,
+  "generosity": 0.12,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ebd"
+  },
+  "rank": 114,
+  "country": "Ghana",
+  "score": 4.63,
+  "gdp": 0.55,
+  "social_support": 0.68,
+  "life_expectancy": 0.4,
+  "freedom": 0.42,
+  "generosity": 0.23,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ebe"
+  },
+  "rank": 115,
+  "country": "Zimbabwe",
+  "score": 4.61,
+  "gdp": 0.27,
+  "social_support": 1.03,
+  "life_expectancy": 0.33,
+  "freedom": 0.26,
+  "generosity": 0.19,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ebf"
+  },
+  "rank": 116,
+  "country": "Liberia",
+  "score": 4.57,
+  "gdp": 0.07,
+  "social_support": 0.79,
+  "life_expectancy": 0.34,
+  "freedom": 0.29,
+  "generosity": 0.24,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec0"
+  },
+  "rank": 117,
+  "country": "India",
+  "score": 4.57,
+  "gdp": 0.64,
+  "social_support": 0.38,
+  "life_expectancy": 0.52,
+  "freedom": 0.4,
+  "generosity": 0.26,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec1"
+  },
+  "rank": 118,
+  "country": "Sudan",
+  "score": 4.55,
+  "gdp": 0.52,
+  "social_support": 1.01,
+  "life_expectancy": 0.37,
+  "freedom": 0.1,
+  "generosity": 0.19,
+  "corruption": 0.15
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec2"
+  },
+  "rank": 119,
+  "country": "Haiti",
+  "score": 4.52,
+  "gdp": 0.27,
+  "social_support": 0.74,
+  "life_expectancy": 0.39,
+  "freedom": 0.24,
+  "generosity": 0.46,
+  "corruption": 0.17
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec3"
+  },
+  "rank": 120,
+  "country": "Congo (Kinshasa)",
+  "score": 4.52,
+  "gdp": 0,
+  "social_support": 1,
+  "life_expectancy": 0.1,
+  "freedom": 0.23,
+  "generosity": 0.25,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec4"
+  },
+  "rank": 121,
+  "country": "Nepal",
+  "score": 4.51,
+  "gdp": 0.36,
+  "social_support": 0.86,
+  "life_expectancy": 0.57,
+  "freedom": 0.38,
+  "generosity": 0.32,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec5"
+  },
+  "rank": 122,
+  "country": "Ethiopia",
+  "score": 4.51,
+  "gdp": 0.19,
+  "social_support": 0.6,
+  "life_expectancy": 0.44,
+  "freedom": 0.43,
+  "generosity": 0.24,
+  "corruption": 0.15
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec6"
+  },
+  "rank": 123,
+  "country": "Sierra Leone",
+  "score": 4.51,
+  "gdp": 0.33,
+  "social_support": 0.96,
+  "life_expectancy": 0,
+  "freedom": 0.41,
+  "generosity": 0.21,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec7"
+  },
+  "rank": 124,
+  "country": "Mauritania",
+  "score": 4.44,
+  "gdp": 0.45,
+  "social_support": 0.87,
+  "life_expectancy": 0.36,
+  "freedom": 0.24,
+  "generosity": 0.22,
+  "corruption": 0.17
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec8"
+  },
+  "rank": 125,
+  "country": "Kenya",
+  "score": 4.42,
+  "gdp": 0.36,
+  "social_support": 1,
+  "life_expectancy": 0.41,
+  "freedom": 0.42,
+  "generosity": 0.38,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ec9"
+  },
+  "rank": 126,
+  "country": "Djibouti",
+  "score": 4.37,
+  "gdp": 0.44,
+  "social_support": 0.59,
+  "life_expectancy": 0.36,
+  "freedom": 0.46,
+  "generosity": 0.18,
+  "corruption": 0.28
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eca"
+  },
+  "rank": 127,
+  "country": "Armenia",
+  "score": 4.35,
+  "gdp": 0.77,
+  "social_support": 0.78,
+  "life_expectancy": 0.73,
+  "freedom": 0.2,
+  "generosity": 0.08,
+  "corruption": 0.04
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ecb"
+  },
+  "rank": 128,
+  "country": "Botswana",
+  "score": 4.33,
+  "gdp": 0.99,
+  "social_support": 1.1,
+  "life_expectancy": 0.05,
+  "freedom": 0.49,
+  "generosity": 0.1,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ecc"
+  },
+  "rank": 129,
+  "country": "Myanmar",
+  "score": 4.31,
+  "gdp": 0.27,
+  "social_support": 0.71,
+  "life_expectancy": 0.48,
+  "freedom": 0.44,
+  "generosity": 0.8,
+  "corruption": 0.19
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ecd"
+  },
+  "rank": 130,
+  "country": "Georgia",
+  "score": 4.3,
+  "gdp": 0.74,
+  "social_support": 0.39,
+  "life_expectancy": 0.73,
+  "freedom": 0.41,
+  "generosity": 0.06,
+  "corruption": 0.38
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ece"
+  },
+  "rank": 131,
+  "country": "Malawi",
+  "score": 4.29,
+  "gdp": 0.02,
+  "social_support": 0.41,
+  "life_expectancy": 0.23,
+  "freedom": 0.43,
+  "generosity": 0.33,
+  "corruption": 0.07
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ecf"
+  },
+  "rank": 132,
+  "country": "Sri Lanka",
+  "score": 4.27,
+  "gdp": 0.84,
+  "social_support": 1.02,
+  "life_expectancy": 0.71,
+  "freedom": 0.54,
+  "generosity": 0.41,
+  "corruption": 0.09
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed0"
+  },
+  "rank": 133,
+  "country": "Cameroon",
+  "score": 4.25,
+  "gdp": 0.42,
+  "social_support": 0.89,
+  "life_expectancy": 0.23,
+  "freedom": 0.49,
+  "generosity": 0.21,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed1"
+  },
+  "rank": 134,
+  "country": "Bulgaria",
+  "score": 4.22,
+  "gdp": 1.01,
+  "social_support": 1.11,
+  "life_expectancy": 0.77,
+  "freedom": 0.31,
+  "generosity": 0.12,
+  "corruption": 0.01
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed2"
+  },
+  "rank": 135,
+  "country": "Egypt",
+  "score": 4.19,
+  "gdp": 0.88,
+  "social_support": 0.75,
+  "life_expectancy": 0.62,
+  "freedom": 0.17,
+  "generosity": 0.11,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed3"
+  },
+  "rank": 136,
+  "country": "Yemen",
+  "score": 4.08,
+  "gdp": 0.55,
+  "social_support": 0.68,
+  "life_expectancy": 0.4,
+  "freedom": 0.36,
+  "generosity": 0.09,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed4"
+  },
+  "rank": 137,
+  "country": "Angola",
+  "score": 4.03,
+  "gdp": 0.76,
+  "social_support": 0.86,
+  "life_expectancy": 0.17,
+  "freedom": 0.1,
+  "generosity": 0.12,
+  "corruption": 0.07
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed5"
+  },
+  "rank": 138,
+  "country": "Mali",
+  "score": 4,
+  "gdp": 0.26,
+  "social_support": 1.04,
+  "life_expectancy": 0.21,
+  "freedom": 0.39,
+  "generosity": 0.19,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed6"
+  },
+  "rank": 139,
+  "country": "Congo (Brazzaville)",
+  "score": 3.99,
+  "gdp": 0.68,
+  "social_support": 0.66,
+  "life_expectancy": 0.31,
+  "freedom": 0.41,
+  "generosity": 0.12,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed7"
+  },
+  "rank": 140,
+  "country": "Comoros",
+  "score": 3.96,
+  "gdp": 0.24,
+  "social_support": 0.79,
+  "life_expectancy": 0.36,
+  "freedom": 0.23,
+  "generosity": 0.17,
+  "corruption": 0.2
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed8"
+  },
+  "rank": 141,
+  "country": "Uganda",
+  "score": 3.93,
+  "gdp": 0.21,
+  "social_support": 1.13,
+  "life_expectancy": 0.34,
+  "freedom": 0.46,
+  "generosity": 0.29,
+  "corruption": 0.07
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ed9"
+  },
+  "rank": 142,
+  "country": "Senegal",
+  "score": 3.9,
+  "gdp": 0.36,
+  "social_support": 0.98,
+  "life_expectancy": 0.44,
+  "freedom": 0.37,
+  "generosity": 0.21,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2eda"
+  },
+  "rank": 143,
+  "country": "Gabon",
+  "score": 3.9,
+  "gdp": 1.06,
+  "social_support": 0.91,
+  "life_expectancy": 0.43,
+  "freedom": 0.32,
+  "generosity": 0.07,
+  "corruption": 0.11
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2edb"
+  },
+  "rank": 144,
+  "country": "Niger",
+  "score": 3.84,
+  "gdp": 0.07,
+  "social_support": 0.77,
+  "life_expectancy": 0.3,
+  "freedom": 0.48,
+  "generosity": 0.19,
+  "corruption": 0.16
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2edc"
+  },
+  "rank": 145,
+  "country": "Cambodia",
+  "score": 3.82,
+  "gdp": 0.46,
+  "social_support": 0.63,
+  "life_expectancy": 0.61,
+  "freedom": 0.66,
+  "generosity": 0.4,
+  "corruption": 0.07
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2edd"
+  },
+  "rank": 146,
+  "country": "Tanzania",
+  "score": 3.78,
+  "gdp": 0.29,
+  "social_support": 1,
+  "life_expectancy": 0.38,
+  "freedom": 0.33,
+  "generosity": 0.34,
+  "corruption": 0.06
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ede"
+  },
+  "rank": 147,
+  "country": "Madagascar",
+  "score": 3.68,
+  "gdp": 0.21,
+  "social_support": 0.67,
+  "life_expectancy": 0.47,
+  "freedom": 0.19,
+  "generosity": 0.21,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2edf"
+  },
+  "rank": 148,
+  "country": "Central African Republic",
+  "score": 3.68,
+  "gdp": 0.08,
+  "social_support": 0,
+  "life_expectancy": 0.07,
+  "freedom": 0.49,
+  "generosity": 0.24,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee0"
+  },
+  "rank": 149,
+  "country": "Chad",
+  "score": 3.67,
+  "gdp": 0.34,
+  "social_support": 0.76,
+  "life_expectancy": 0.15,
+  "freedom": 0.24,
+  "generosity": 0.18,
+  "corruption": 0.05
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee1"
+  },
+  "rank": 150,
+  "country": "Guinea",
+  "score": 3.66,
+  "gdp": 0.17,
+  "social_support": 0.46,
+  "life_expectancy": 0.24,
+  "freedom": 0.38,
+  "generosity": 0.29,
+  "corruption": 0.12
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee2"
+  },
+  "rank": 151,
+  "country": "Ivory Coast",
+  "score": 3.66,
+  "gdp": 0.47,
+  "social_support": 0.77,
+  "life_expectancy": 0.15,
+  "freedom": 0.47,
+  "generosity": 0.2,
+  "corruption": 0.18
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee3"
+  },
+  "rank": 152,
+  "country": "Burkina Faso",
+  "score": 3.59,
+  "gdp": 0.26,
+  "social_support": 0.85,
+  "life_expectancy": 0.27,
+  "freedom": 0.39,
+  "generosity": 0.22,
+  "corruption": 0.13
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee4"
+  },
+  "rank": 153,
+  "country": "Afghanistan",
+  "score": 3.58,
+  "gdp": 0.32,
+  "social_support": 0.3,
+  "life_expectancy": 0.3,
+  "freedom": 0.23,
+  "generosity": 0.37,
+  "corruption": 0.1
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee5"
+  },
+  "rank": 154,
+  "country": "Rwanda",
+  "score": 3.46,
+  "gdp": 0.22,
+  "social_support": 0.77,
+  "life_expectancy": 0.43,
+  "freedom": 0.59,
+  "generosity": 0.23,
+  "corruption": 0.55
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee6"
+  },
+  "rank": 155,
+  "country": "Benin",
+  "score": 3.34,
+  "gdp": 0.29,
+  "social_support": 0.35,
+  "life_expectancy": 0.32,
+  "freedom": 0.48,
+  "generosity": 0.18,
+  "corruption": 0.08
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee7"
+  },
+  "rank": 156,
+  "country": "Syria",
+  "score": 3.01,
+  "gdp": 0.66,
+  "social_support": 0.47,
+  "life_expectancy": 0.72,
+  "freedom": 0.16,
+  "generosity": 0.47,
+  "corruption": 0.19
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee8"
+  },
+  "rank": 157,
+  "country": "Burundi",
+  "score": 2.9,
+  "gdp": 0.02,
+  "social_support": 0.42,
+  "life_expectancy": 0.22,
+  "freedom": 0.12,
+  "generosity": 0.2,
+  "corruption": 0.1
+},{
+  "_id": {
+    "$oid": "5fd51dfada506c54ae8c2ee9"
+  },
+  "rank": 158,
+  "country": "Togo",
+  "score": 2.84,
+  "gdp": 0.21,
+  "social_support": 0.14,
+  "life_expectancy": 0.28,
+  "freedom": 0.36,
+  "generosity": 0.17,
+  "corruption": 0.11
+}]
