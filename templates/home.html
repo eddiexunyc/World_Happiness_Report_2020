@@ -18,6 +18,12 @@
     <div class = "h1">Home Page</div>
     <hr>
     <p>Our home page for the world happiness report</p>
+    <hr>
+    {% for x in data %}
+      <h1>{{x.country}}</h1>
+      <p>Rank: {{x.rank}} Score: {{x.score}} GDP: {{x.gdp}} Social Support: {{x.social_support}}</p>
+
+    {% endfor %}
 
   </div>
 </body>
