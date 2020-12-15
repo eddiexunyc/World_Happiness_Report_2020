@@ -3,7 +3,11 @@ import pandas as pd
 import pymongo
 import json
 
+<<<<<<< HEAD
 #2019 data
+=======
+
+>>>>>>> ad96f5a85e30650f2a7c274d460cefe6418e9a0b
 def import_content(filepath):
     mng_client = pymongo.MongoClient('localhost', 27017)
     mng_db = mng_client['project_1'] # Replace mongo db name

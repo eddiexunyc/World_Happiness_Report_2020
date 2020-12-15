@@ -1,9 +1,13 @@
 import os
 from flask import Flask, render_template, json, current_app as app
+from flask_pymongo import PyMongo
+import import_csv
 
 app = Flask(__name__)
 
 data_list = {}
+app.config["MONGO_URI"] = "mongodb://localhost:27017/project_1"
+mongo = PyMongo(app)
 
 @app.route("/")
 @app.route("/home")
