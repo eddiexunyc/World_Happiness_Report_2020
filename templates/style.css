@@ -1,8 +1,8 @@
 .navigation .navbar-brand{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Helvetica', Times, sans-serif;
     padding: 10px;
     font-size: 50px;
-    background-color: lightseagreen;
+    background-color: orchid;
     color: white;
 }
 
@@ -15,8 +15,8 @@
 
 .h1{
     font-size: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: lightseagreen;
+    font-family: Georgia, 'Helvetica', Times, sans-serif;
+    color: purple;
     font-weight: bold;
     padding: 10px;
 }
