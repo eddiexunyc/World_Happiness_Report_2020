@@ -3,7 +3,7 @@ from flask import Flask, render_template, json, current_app as app
 
 app = Flask(__name__)
 
-data_list = []
+data_list = {}
 
 @app.route("/")
 @app.route("/home")
@@ -25,9 +25,20 @@ def data():
             freedom = x['freedom']
             generosity = x['generosity']
             corruption = x['corruption']
-            data_list.append([rank, country, score, gdp, social_support, life_expectancy, freedom, generosity, corruption])
+            #data_list.append([rank, country, score, gdp, social_support, life_expectancy, freedom, generosity, corruption])
+        
+        data_list = {
+            'rank': rank,
+            'country': country,
+            'score': score,
+            'GDP': gdp,
+            'social_support': social_support,
+            'life_expectency': life_expectancy,
+            'freedom': freedom,
+            'generosity': generosity,
+            'corruption': corruption
+        }
     
-    filename.close()
 
     return render_template("home.html", data = data_list)
 
