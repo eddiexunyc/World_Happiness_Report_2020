@@ -16,7 +16,8 @@ def home():
     for y2015data in project_1:
         print(y2015data)
     return render_template('home.html', project_1=project_1)
-    
-
+    col = project_1.y2015
+    array = list(col.find())
+    print(array)
 if __name__ == "__main__":
     app.run(debug=True)
