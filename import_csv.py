@@ -3,15 +3,10 @@ import pandas as pd
 import pymongo
 import json
 
-<<<<<<< HEAD
-#2019 data
-=======
-
->>>>>>> ad96f5a85e30650f2a7c274d460cefe6418e9a0b
 def import_content(filepath):
     mng_client = pymongo.MongoClient('localhost', 27017)
     mng_db = mng_client['project_1'] # Replace mongo db name
-    collection_name = '2019' # Replace mongo db collection name
+    collection_name = 'y2019' # Replace mongo db collection name
     db_cm = mng_db[collection_name]
     cdir = os.path.dirname(__file__)
     file_res = os.path.join(cdir, filepath)
@@ -29,7 +24,7 @@ if __name__ == "__main__":
   def import_content(filepath):
     mng_client = pymongo.MongoClient('localhost', 27017)
     mng_db = mng_client['project_1'] # Replace mongo db name
-    collection_name = '2018' # Replace mongo db collection name
+    collection_name = 'y2018' # Replace mongo db collection name
     db_cm = mng_db[collection_name]
     cdir = os.path.dirname(__file__)
     file_res = os.path.join(cdir, filepath)
@@ -47,7 +42,7 @@ if __name__ == "__main__":
   def import_content(filepath):
     mng_client = pymongo.MongoClient('localhost', 27017)
     mng_db = mng_client['project_1'] # Replace mongo db name
-    collection_name = '2017' # Replace mongo db collection name
+    collection_name = 'y2017' # Replace mongo db collection name
     db_cm = mng_db[collection_name]
     cdir = os.path.dirname(__file__)
     file_res = os.path.join(cdir, filepath)
@@ -65,7 +60,7 @@ if __name__ == "__main__":
   def import_content(filepath):
     mng_client = pymongo.MongoClient('localhost', 27017)
     mng_db = mng_client['project_1'] # Replace mongo db name
-    collection_name = '2016' # Replace mongo db collection name
+    collection_name = 'y2016' # Replace mongo db collection name
     db_cm = mng_db[collection_name]
     cdir = os.path.dirname(__file__)
     file_res = os.path.join(cdir, filepath)
