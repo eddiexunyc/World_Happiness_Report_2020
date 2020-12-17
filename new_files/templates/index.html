@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='css/home.css') }}"/>
 </head>
 
 <body>
@@ -51,7 +51,7 @@
           <br>
             <div class = "h1">World Happiness Report</div>
               <hr>
-              <img src="../templates/world-happiness-news.jpg" class="vizualization rounded float-left" alt="From World Happiness Report 2012">
+              <img src="/static/image/world-happiness-news.jpg" class="vizualization rounded float-left" alt="From World Happiness Report 2012">
               <p>
                 The purpose of this project is review the state of happiness in individual countries 
                 and show how new sciences of happiness explain persona and national variations in happiness. By using data visualizations,
