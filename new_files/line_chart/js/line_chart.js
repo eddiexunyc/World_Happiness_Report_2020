@@ -5,6 +5,7 @@ var Iceland = [7.59, 1.40, 1.35, 0.94, 0.67, 0.30, 0.42];
 
 
 var ctx = document.getElementById('myChart').getContext('2d');
+
 var mychart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'line',
