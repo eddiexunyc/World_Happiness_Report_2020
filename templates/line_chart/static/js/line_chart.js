@@ -1,5 +1,5 @@
-var svgWidth = 960;
-var svgHeight = 500;
+var svgWidth = 1600;
+var svgHeight = 900;
 
 // Define the chart's margins as an object
 var margin = {
@@ -14,7 +14,7 @@ var chartWidth = svgWidth - margin.left - margin.right;
 var chartHeight = svgHeight - margin.top - margin.bottom;
 
 // Select body, append SVG area to it, and set its dimensions
-var svg = d3.select("#mychart")
+var svg = d3.select("#myChart")
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -23,13 +23,13 @@ var svg = d3.select("#mychart")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-d3.json("../../project_1.json", function(worldData){
-
+d3.json("../../project_1").then(function(worldData){
+    console.log(worldData)
     //var parseTime = d3.timeParse("%Y");
 
     worldData.forEach(function(data){
         data.rank = +data.rank;
-        data.country = +data.country;
+        data.country = data.country;
         data.score = +data.score;
         data.gdp = +data.gdp;
         data.social_support = +data.social_support;
@@ -42,12 +42,12 @@ d3.json("../../project_1.json", function(worldData){
 
     var xTimeScale = d3.scaleTime()
         .domain(d3.extent(worldData, d => d.year))
-        .range([0, width]);
+        .range([0, chartWidth]);
     
-    var yMax = d3.max(worldData, d => d.score);
+    var yMax = d3.max(worldData, d => d.rank);
     
     var yLinearScale = d3.scaleLinear()
-        .range([height, 0])
+        .range([chartHeight, 0])
         .domain([0, yMax]);
 
 
@@ -55,10 +55,18 @@ d3.json("../../project_1.json", function(worldData){
     var leftAxis = d3.axisLeft(yLinearScale);
 
     chartGroup.append("g")
-        .attr("transform", `translate(0, ${height})`)
+        .attr("transform", `translate(0, ${chartHeight})`)
         .call(bottomAxis);
     
     chartGroup.append("g").call(leftAxis);
+
+    var line1 = d3.line()
+      .x(d => xTimeScale(d.year))
+      .y(d => yLinearScale(d.country));
+    
+    chartGroup
+      .attr("d", line1(worldData))
+      .classed("line green", true);
 
 
 
