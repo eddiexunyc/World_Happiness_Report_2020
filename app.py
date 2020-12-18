@@ -1,8 +1,9 @@
-from flask import Flask, render_template, redirect, Response
+from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 from flask import jsonify
 import json
 from bson import json_util
+import os
 
 
 
@@ -17,16 +18,30 @@ mongo = PyMongo(app)
 def json_file(obj):
     with open("project_1", "w") as outfile:
         outfile.write(obj)
+    # with open("project_1", "w") as outfile:
+    #     json.dump(obj, outfile)
 
 
-#Route for index.html (blank for now)
+#Route for index.html
 @app.route("/")
 @app.route("/home")
 @app.route("/index.html")
 def home():
     return render_template("index.html")
 
-# Route to render data.html template using data from Mongo
+#Route for line chart
+@app.route("/line_chart")
+@app.route("/line_index.html")
+def line_chart():
+    return render_template("line_chart/line_index.html")
+
+#Route for rader chart
+@app.route("/rader_chart")
+@app.route("/radar_index.html")
+def radar_chart():
+    return render_template("radar_chart/radar_index.html")
+
+#Route to show the data in the page
 @app.route('/data')
 def data():
     project_1 = [doc for doc in mongo.db.collection.find()]
