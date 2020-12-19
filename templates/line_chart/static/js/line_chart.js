@@ -37,7 +37,6 @@ function getChart(dataID){
 
     data.forEach(function(data){
       data.rank = +data.rank;
-      data.rank = +data.rank;
       data.country = data.country;
       data.score =  +data.score;
       data.gdp = +data.gdp;
@@ -54,7 +53,7 @@ function getChart(dataID){
       .range([0, chartWidth]);
     
     var yLinearScale = d3.scaleLinear()
-      .domain([d3.min(data, d => d.gdp), d3.max(data, d => d.gdp)])
+      .domain([d3.min(data, d => d.score), d3.max(data, d => d.score)])
       .range([chartHeight, 0]);
     
     var bottomAxis = d3.axisBottom(xLinearScale).tickFormat(d3.format("d"));
@@ -63,7 +62,7 @@ function getChart(dataID){
     
     var line = d3.line()
       .x(data => xLinearScale(data.year))
-      .y(data => yLinearScale(data.gdp));
+      .y(data => yLinearScale(data.score));
     
 
     chartGroup.append("path")
@@ -80,6 +79,19 @@ function getChart(dataID){
       .classed("axis", true)
       .attr("transform", `translate(0, ${chartHeight})`)
       .call(bottomAxis);
+    
+    chartGroup.append("text")
+      .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + margin.top + 30})`)
+      .classed("year text", true)
+      .text("Year");
+
+    chartGroup.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left + 60)
+      .attr("x", 0 - (chartHeight/2))
+      .attr("class", "axisText")
+      .text("Country Score")
+
   })
 };
 
