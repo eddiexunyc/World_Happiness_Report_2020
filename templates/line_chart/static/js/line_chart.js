@@ -1,11 +1,11 @@
-var svgWidth = 1600;
-var svgHeight = 900;
+var svgWidth = 950;
+var svgHeight = 500;
 
 // Define the chart's margins as an object
 var margin = {
-  top: 100,
-  right: 100,
-  bottom: 100,
+  top: 10,
+  right: 10,
+  bottom: 50,
   left: 100
 };
 
@@ -23,9 +23,9 @@ var svg = d3.select("#myChart")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+
 d3.json("../../project_1").then(function(worldData){
     console.log(worldData)
-    //var parseTime = d3.timeParse("%Y");
 
     worldData.forEach(function(data){
         data.rank = +data.rank;
@@ -39,38 +39,40 @@ d3.json("../../project_1").then(function(worldData){
         data.corruption = +data.corruption;
         data.year = data.year;
     })
-
-    var xTimeScale = d3.scaleTime()
-        .domain(d3.extent(worldData, d => d.year))
-        .range([0, chartWidth]);
-    
-    var yMax = d3.max(worldData, d => d.rank);
+    var xLinearScale = d3.scaleTime()
+      .domain(d3.extent(worldData, d => d.year))
+      .range([0, chartWidth]);
     
     var yLinearScale = d3.scaleLinear()
-        .range([chartHeight, 0])
-        .domain([0, yMax]);
-
-
-    var bottomAxis = d3.axisBottom(xTimeScale);
+      .domain([0, d3.extent(worldData, d => d.gdp)])
+      .range([chartHeight, 0]);
+    
+    var bottomAxis = d3.axisBottom(xLinearScale).tickFormat(d3.format("d"));
     var leftAxis = d3.axisLeft(yLinearScale);
 
+    var line = d3.line()
+      .x(d => xLinearScale(d.country))
+      .y(d => yLinearScale(d.gdp));
+    
+    chartGroup.append("path")
+      .attr("d", line(worldData))
+      .classed("line", true);
+    
     chartGroup.append("g")
-        .attr("transform", `translate(0, ${chartHeight})`)
-        .call(bottomAxis);
+      .classed("axis", true)
+      .call(leftAxis);
     
-    chartGroup.append("g").call(leftAxis);
-
-    var line1 = d3.line()
-      .x(d => xTimeScale(d.year))
-      .y(d => yLinearScale(d.country));
-    
-    chartGroup
-      .attr("d", line1(worldData))
-      .classed("line green", true);
-
-
+    chartGroup.append("g")
+      .classed("axis", true)
+      .attr("transform", `translate(0, ${chartHeight})`)
+      .call(bottomAxis);
 
 }).catch(function(error) {
     console.log(error);
-  });
+});
+
+
+
+
+
   
