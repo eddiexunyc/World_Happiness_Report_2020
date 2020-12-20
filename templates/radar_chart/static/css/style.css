@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Helvetica Neue, Arial, sans-serif;
   text-align: center;
 }
@@ -25,7 +25,8 @@ a {
   margin-top: 50px;
   display: block;
   color: #3e95cd;
-}
+
+} */
 
 .navigation .navbar-brand{
     font-family: Georgia, 'Helvetica', Times, sans-serif;
@@ -68,9 +69,9 @@ img-thumbnail{
     padding: 10px;
 }
 
-/* body{
+body{
     background-color: white;
-} */
+}
 
 .row{
     padding: 10px;
