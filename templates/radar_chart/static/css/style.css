@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Helvetica Neue, Arial, sans-serif;
   text-align: center;
 }
@@ -25,4 +25,81 @@ a {
   margin-top: 50px;
   display: block;
   color: #3e95cd;
+} */
+
+.navigation .navbar-brand{
+    font-family: Georgia, 'Helvetica', Times, sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    background-color: orchid;
+    color: white;
+}
+
+
+.navbar{
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.h1{
+    font-size: 100;
+    font-family: Georgia, 'Helvetica', Times, sans-serif;
+    color: purple;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+}
+
+img-thumbnail{
+    padding: 20px;
+    border: none;
+}
+
+.box{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+body{
+    background-color: white;
+}
+
+.row{
+    padding: 10px;
+}
+.table{
+    font-size: medium;
+    border-top-color: white;
+
+}
+
+@media(max-width:1000px){
+    .navbar {
+        padding: 10px;
+        max-height: none;
+        background-color: white !important;
+    }
+    .navbar-brand {
+        padding: 10px;
+        background-color: white;
+    }
+    .navbar-expand-lg {
+        background-color: lightseagreen !important;
+        padding: 10px;
+    }
+    .nav-item{
+        background-color: white;
+        padding: 10px;
+    }
+    button{
+        margin-right: 30px;
+      }
 }

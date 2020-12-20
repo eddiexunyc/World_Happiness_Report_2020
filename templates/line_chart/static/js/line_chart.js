@@ -51,35 +51,35 @@ function getChart(dataID){
     var xLinearScale = d3.scaleTime()
       .domain(d3.extent(data, d => d.year))
       .range([0, chartWidth]);
-    
+
     var yLinearScale = d3.scaleLinear()
       .domain([d3.min(data, d => d.score), d3.max(data, d => d.score)])
       .range([chartHeight, 0]);
-    
+
     var bottomAxis = d3.axisBottom(xLinearScale).tickFormat(d3.format("d"));
     var leftAxis = d3.axisLeft(yLinearScale);
 
-    
+
     var line = d3.line()
       .x(data => xLinearScale(data.year))
       .y(data => yLinearScale(data.score));
-    
+
 
     chartGroup.append("path")
       .attr("stroke", "black")
       .attr("stroke-width", "1")
       .attr("fill", "none")
       .attr("d", line(data));
-    
+
     chartGroup.append("g")
       .classed("axis", true)
       .call(leftAxis);
-    
+
     chartGroup.append("g")
       .classed("axis", true)
       .attr("transform", `translate(0, ${chartHeight})`)
       .call(bottomAxis);
-    
+
     chartGroup.append("text")
       .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + margin.top + 30})`)
       .classed("year text", true)
@@ -112,7 +112,7 @@ function init(){
     var resultData = uniqueData[0];
     getChart(resultData);
 
-    
+
   });
 
 };
