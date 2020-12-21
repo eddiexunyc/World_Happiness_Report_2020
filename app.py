@@ -48,11 +48,12 @@ def world_map():
 
 #Route to show the data in the page
 @app.route('/data')
+@app.route('/data.html')
 def data():
     project_1 = [doc for doc in mongo.db.collection.find()]
     return render_template("data.html", project_1 = project_1)
     
-
+#Route to get the JSON data
 @app.route('/getMyJson')
 def getMyJson():
     project_1 = [doc for doc in mongo.db.collection.find()]
