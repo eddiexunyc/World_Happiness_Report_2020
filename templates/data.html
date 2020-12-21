@@ -46,13 +46,16 @@
   </div>
 
   <div>
-      {% for x in project_1 %}
-      {{x.country}}
-      <p>Rank: {{x.rank}} Score: {{x.score}} GDP: {{x.gdp}} Social Support: {{x.social_support}}
-         Life Expectancy: {{x.life_expectancy}} Freedom: {{x.freedom}} Generosity: {{x.generosity}} Corruption: {{x.corruption}}
+      <p>
+        {% for x in project_1 %}
+          {{x.country}}
+          <br>
+          Rank: {{x.rank}} Score: {{x.score}} GDP: {{x.gdp}} Social Support: {{x.social_support}}
+          Life Expectancy: {{x.life_expectancy}} Freedom: {{x.freedom}} Generosity: {{x.generosity}} Corruption: {{x.corruption}}
+
+         {% endfor %}
       </p>
 
-    {% endfor %}
   </div>
 
   <div>

@@ -31,15 +31,18 @@ def home():
 
 #Route for line chart
 @app.route("/line_chart")
+@app.route("/line_chart.html")
 def line_chart():
     return render_template("line_chart.html")
 
 #Route for rader chart
 @app.route("/radar_chart")
+@app.route("/radar_chart.html")
 def radar_chart():
     return render_template("radar_chart.html")
 
 @app.route("/world_map")
+@app.route("/world_map.html")
 def world_map():
     return render_template("world_map.html")
 
