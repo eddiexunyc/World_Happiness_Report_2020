@@ -2,21 +2,21 @@
     font-family: Georgia, 'Helvetica', Times, sans-serif;
     padding: 10px;
     font-size: 50px;
-    background-color: orchid;
-    color: white;
+    background-color: lightskyblue;
+    color: yellow;
 }
-
 
 .navbar{
     padding: 10px;
-    background-color: white;
+    background-color: lightskyblue;
+    color: yellow;
     font-size: 15px;
 }
 
 .h1{
     font-size: 100;
     font-family: Georgia, 'Helvetica', Times, sans-serif;
-    color: purple;
+    color: green;
     font-weight: bold;
     padding: 10px;
 }
@@ -56,14 +56,17 @@ body{
     .navbar {
         padding: 10px;
         max-height: none;
-        background-color: white !important;
+        background-color: lightskyblue !important;
+        color: yellow;
     }
     .navbar-brand {
         padding: 10px;
-        background-color: white;
+        background-color: lightskyblue;
+        color: yellow;
     }
     .navbar-expand-lg {
-        background-color: lightseagreen !important;
+        background-color: lightskyblue !important;
+        color: yellow;
         padding: 10px;
     }
     .nav-item{
