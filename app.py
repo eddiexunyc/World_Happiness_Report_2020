@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, url_for
 from flask_pymongo import PyMongo
 from flask import jsonify
 import json
@@ -32,12 +32,16 @@ def home():
 #Route for line chart
 @app.route("/line_chart")
 def line_chart():
-    return render_template("line_chart/line_chart.html")
+    return render_template("line_chart.html")
 
 #Route for rader chart
-@app.route("/rader_chart")
+@app.route("/radar_chart")
 def radar_chart():
-    return render_template("radar_chart/radar_chart.html")
+    return render_template("radar_chart.html")
+
+@app.route("/world_map")
+def world_map():
+    return render_template("world_map.html")
 
 #Route to show the data in the page
 @app.route('/data')

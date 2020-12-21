@@ -28,7 +28,7 @@ function onlyUnique(value, index, self){
 }
 
 function getChart(dataID){
-  d3.json("../../project_1").then(function(worldData){
+  d3.json("../getMyJson").then(function(worldData){
     console.log(worldData);
 
     var data = worldData.filter(d => d.country == dataID);
@@ -97,7 +97,7 @@ function getChart(dataID){
 
 function init(){
   var selector = d3.select("#selDataset");
-  d3.json("../../project_1").then((data) => {
+  d3.json("../getMyJson").then((data) => {
     var countryData = data.map(d => d.country);
     var uniqueData = countryData.filter(onlyUnique).sort();
     console.log(uniqueData);
