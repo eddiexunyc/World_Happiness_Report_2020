@@ -23,10 +23,13 @@ var svg = d3.select("#myChart")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+//Search function
 function onlyUnique(value, index, self){
   return self.indexOf(value) == index;
 }
 
+
+//get the data from each country based on the search function and create a line chart of country's score
 function getChart(dataID){
   d3.json("../getMyJson").then(function(worldData){
     console.log(worldData);
@@ -95,6 +98,7 @@ function getChart(dataID){
   })
 };
 
+//default
 function init(){
   var selector = d3.select("#selDataset");
   d3.json("../getMyJson").then((data) => {
