@@ -18,9 +18,6 @@ mongo = PyMongo(app)
 def json_file(obj):
     with open("project_1", "w") as outfile:
         outfile.write(obj)
-    # with open("project_1", "w") as outfile:
-    #     json.dump(obj, outfile)
-
 
 #Route for index.html
 @app.route("/")
