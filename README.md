@@ -1,4 +1,4 @@
-#World Happiness Report 
+World Happiness Report 
 
 Member: Mike Dunlap, Max Izotov, Ksenia Dyakova, Patrick Saitta, Eddie Xu
 
